@@ -1,0 +1,74 @@
+body {
+	background: #092A49;
+	}
+	
+h3, h2, p, label, legend {
+		color: #FDFBFC;
+	}
+
+nav {
+	background: #02182D;
+	}
+	
+nav a {
+  	color: #FDFBFC;
+	}
+	
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	text-align: center;
+	background: #195090;
+	}
+	
+.buy {
+    color: #042546;
+    background: #5482B6;
+	}
+	
+.buy:hover {
+    background: #74AAE8;
+	}
+	
+.modal {
+    background: rgba(0, 0, 13, 0.35);
+	}
+	
+.modal-window {
+    background: #392C7C;
+    box-shadow: 0 5px 15px rgba(11, 0, 0, .5);
+	}
+	
+.modal-header {
+    background: #211561;
+	border-bottom: 1px solid #FDFBFC;
+	}
+	
+.close {
+	color: #F0F0FF;
+}
+
+.close:hover {
+    text-shadow: 1px 1px 3px #77f;
+	}
+	
+input[type=number], textarea {
+    border: 1px solid #ccc;
+	}
+	
+#up {
+	background: #4C1686; 
+	color: #F9F8F4;
+	}
+	
+#up:hover {
+	background-color: #A981D7;
+    color: #021732; 
+	}
+
+footer {
+	background: #02182D;
+    color: #FDFBFC;
+	}
+footer a{
+    color: #FDFBFC;
+	}

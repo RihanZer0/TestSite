@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>КартоНки</title>
+	<meta name="author" content="Rihan_Zer0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/dark.css" id='theme'>
+</head>  
+<body>
+    <div id="container">
+        <nav>
+            <div class="centered">
+        		<a href="#Nintendo">Nintendo</a>
+        		<a href="#PlayStation">PlayStation</a>
+        		<a href="#XboX">XboX</a>
+                <button id="switchTheme" class="close">☀</button> 
+            </div>
+	    </nav>
+	    <main class="centered">
+            <h2 id="Nintendo">Nintendo</h2>
+            <section class="cards" name="Nintendo">
+                <div class="card">
+                    <img src="img/BotW.jpg" alt="BreathOfTheWild">
+					<h3>The Legend of Zelda: Breath of the Wild</h3>
+					<p class="Date">03.03.2017</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+                <div class="card">
+                    <img src="img/TotK.jpg" alt="TearsOfTheKingdom">
+					<h3>The Legend of Zelda: Tears of the Kingdom</h3>
+					<p class="Date">12.05.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Bay3.jpg" alt="Bayonetta 3">
+					<h3><br>Bayonetta 3<br></h3>
+					<p class="Date">28.10.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/KirbyFL.png" alt="Kirby and the Forgotten Land">
+					<h3>Kirby and the Forgotten Land</h3>
+					<p class="Date">25.03.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/PokemonArc.jpg" alt="Pokemon Legends: Arceus">
+					<h3>Pokemon Legends: Arceus</h3>
+					<p class="Date">28.01.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/SSBU.png" alt="Super Smash Bros. Ultimate">
+					<h3>Super Smash Bros. Ultimate</h3>
+					<p class="Date">07.12.2018</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Splatoon 3.jpg" alt="Splatoon 3">
+					<h3>Splatoon 3</h3>
+					<p class="Date">09.09.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/KirbyReturns.jpg" alt="Kirby’s Return to Dream Land Deluxe">
+					<h3>Kirby’s Return to Dream Land Deluxe</h3>
+					<p class="Date">24.02.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/1-2-Switch.jpg" alt="1-2-Switch">
+					<h3>1-2-Switch</h3>
+					<p class="Date">03.03.2017</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Pokemon Violet.jpg" alt="Pokemon Violet">
+					<h3>Pokemon Violet</h3>
+					<p class="Date">18.11.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/mmX.jpg" alt="Mega Man X Legacy Collection 1 + 2">
+					<h3>Mega Man X Legacy Collection 1 + 2</h3>
+					<p class="Date">24.07.2018</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Arms.jpg" alt="Arms">
+					<h3>Arms</h3>
+					<p class="Date">15.06.2017</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/KirbySA.jpg" alt="Kirby: Star Allies">
+					<h3>Kirby: Star Allies</h3>
+					<p class="Date">16.03.2018</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Sonic Mania Plus.jpg" alt="Sonic Mania Plus">
+					<h3>Sonic Mania Plus</h3>
+					<p class="Date">17.07.2018</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Pikmin 4.jpg" alt="Pikmin 4">
+					<h3>Pikmin 4</h3>
+					<p class="Date">21.06.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+	        </section>
+	        <h2 id="PlayStation">PlayStation</h2>
+            <section class="cards" name="PlayStation">
+                <div class="card">
+                    <img src="img/mmZ.jpg" alt="Mega Man Zero / Zx Legacy Collection">
+					<h3>Mega Man Zero / Zx Legacy Collection</h3>
+					<p class="Date">25.02.2020</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Crisis Core.jpg" alt="Crisis Core: Final Fantasy VII Reunion">
+					<h3>Crisis Core: Final Fantasy VII Reunion</h3>
+					<p class="Date">27.12.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/FF7R.jpg" alt="Final Fantasy VII Remake Intergrade">
+					<h3>Final Fantasy VII Remake Intergrade</h3>
+					<p class="Date">10.06.2021</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Stray.png" alt="Stray">
+					<h3>Stray</h3>
+					<p class="Date">20.09.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Sonic Frontiers.png" alt="Sonic Frontiers">
+					<h3>Sonic Frontiers</h3>
+					<p class="Date">08.11.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/dmc5se.png" alt="Devil May Cry 5 Special Edition">
+					<h3>Devil May Cry 5 Special Edition</h3>
+					<p class="Date">01.12.2020</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/GoT.jpg" alt="Призрак Цушимы">
+					<h3>Ghost of Tsushima Director's Cut</h3>
+					<p class="Date">20.08.2021</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/FF16.jpg" alt="Final Fantasy XVI">
+					<h3>Final Fantasy XVI</h3>
+					<p class="Date">22.06.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/FF15.jpg" alt="Final Fantasy XV">
+					<h3>Final Fantasy XV</h3>
+					<p class="Date">29.11.2016</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/SW.jpg" alt="Star Wars Jedi: Survivor">
+					<h3>Star Wars Jedi: Survivor</h3>
+					<p class="Date">28.04.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/RoboCop.jpg" alt="RoboCop: Rogue City">
+					<h3>RoboCop: Rogue City</h3>
+					<p class="Date">30.09.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Atomic Heart.jpg" alt="Atomic Heart">
+					<h3>Atomic Heart</h3>
+					<p class="Date">21.02.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/NioH.jpg" alt="Nioh Collection">
+					<h3>Nioh Collection</h3>
+					<p class="Date">05.02.2021</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+            </section>
+            <h2 id="XboX">XboX</h2>
+            <section class="cards" name="XboX">
+                <div class="card">
+                    <img src="img/NieR.jpg" alt="NieR Replicant">
+					<h3>NieR Replicant ver.1.22474487139...</h3>
+					<p class="Date">23.04.2021</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Hogwarts Legacy.png" alt="Hogwarts Legacy">
+					<h3>Hogwarts Legacy</h3>
+					<p class="Date">10.02.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Fable 2.jpg" alt="Fable 2">
+					<h3>Fable 2</h3>
+					<p class="Date">23.10.2008</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Fable 3.jpg" alt="Fable 3">
+					<h3>Fable 3</h3>
+					<p class="Date">28.10.2010</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Vampyr.jpg" alt="Vampyr">
+					<h3>Vampyr</h3>
+					<p class="Date">15.11.2017</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/yakuza.jpg" alt="Like a Dragon: Ishin!">
+					<h3>Like a Dragon: Ishin!</h3>
+					<p class="Date">21.02.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Naruto.jpg" alt="Naruto x Boruto: Ultimate Ninja Storm Connections">
+					<h3>Naruto x Boruto: Ultimate Ninja Storm Connections</h3>
+					<p class="Date">31.12.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Klonoa.jpg" alt="Klonoa Phantasy Reverie Series">
+					<h3>Klonoa Phantasy Reverie Series</h3>
+					<p class="Date">08.06.2022</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/SoulCalibur.jpg" alt="SoulCalibur VI">
+					<h3>SoulCalibur VI</h3>
+					<p class="Date">19.10.2018</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+				<div class="card">
+                    <img src="img/Lies of P.jpg" alt="Lies of P">
+					<h3>Lies of P</h3>
+					<p class="Date">15.08.2023</p>
+					<button class="buy" onclick="openFormM()" href="#openModal">Buy</button>
+                </div>
+            </section>
+	    </main>
+	    <button onclick="onTop()" id="up" title="Перейти к началу">&#9650;</button>
+    	<footer>
+          <ul class="centered">
+            <li><a href="#Nintendo">Nintendo</a></li>
+    		<li><a href="#PlayStation">PlayStation</a></li>
+    		<li><a href="#XboX">XboX</a></li>
+          </ul>
+    	</footer>
+    	
+    	<div id="openModal" class="modal">
+            <div class="modal-window">
+              <div class="modal-header">
+                <h3 class="modal-title">Название</h3>
+                <button type="button" onclick="closeFormM()" href="#close" title="Close" class="close">&#10008;</button>
+              </div>
+                <form class="modal-form">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="quantity">Количество: </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="number" step="1" min="1" max="99" value="1" id="quantity" name="quantity"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"></div>
+                        <div class="col-75">
+                            <fieldset id="legend">
+                                <legend>Регион:</legend>
+                                <input type="radio" checked="checked" id="rus" name="region" value="rus">
+                                <label for="rus">RUS</label><br>
+                                <input type="radio" id="pal" name="region" value="pal">
+                                <label for="pal">PAL</label><br>
+                                <input type="radio" id="ntsc" name="region" value="ntsc">
+                                <label for="ntsc">NTSC</label><br>
+                                <input type="radio" id="jpn" name="region" value="jpn">
+                                <label for="jpn">JPN</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                    <label for="comment">Комментари: </label></div>
+                    <div class="col-75">
+                    <textarea  id="comment" name="comment" maxlength="2000" placeholder="Ваши пожелания"></textarea>
+                    </div></div>
+                    <div id="bttn-row" class="row"><div class="col-25"></div>
+                    <div class="col-75">
+                    <div id="bttnR"><input type="reset" value="Сброс"></div>
+                    <div id="bttnS"><input type="button" onclick="openFormD()" value="Купить"></div></div></div>
+                </form>
+            </div>
+        </div>
+	
+    	<div id="openDone" class="modal">
+    		<div class="modal, modal-window">
+        		<h3 id="dOne">Отличный выбор,<br>Оформлено!</h3>
+        		<button type="button" id="closeD" onclick="closeFormD()" class="close">&#10008;</button>
+    	    </div>
+    	</div>
+    </div>
+	<script src="./script.js"></script>
+</body>
+</html>

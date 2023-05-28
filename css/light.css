@@ -1,0 +1,74 @@
+body {
+	background: #F1F4F9;
+	}
+	
+h3, h2, p, label, legend {
+		color: #060F2E;
+	}
+	
+nav {
+	background: #B8C8D5;
+	}
+	
+nav a {
+  	color: #020B28;
+	}
+	
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	text-align: center;
+	background: #B0D3FB;
+	}
+	
+.buy {
+    color: #F3DEF1;
+    background: #57A3F9;
+	}
+	
+.buy:hover {
+    background: #223;
+	}
+	
+.modal {
+    background: rgba(0, 0, 13, 0.35);
+	}
+	
+.modal-window {
+    background-color: #D2DCE6;
+    box-shadow: 0 5px 15px rgba(11, 0, 0, .5);
+	}
+	
+.modal-header {
+    background: #9ABDDD;
+	border-bottom: 1px solid #060F2E;
+	}
+	
+.close {
+	color: black;
+}
+
+.close:hover {
+    text-shadow: 1px 1px 3px #911;
+	}
+	
+input[type=number], textarea {
+    border: 1px solid #ccc;
+	}
+	
+#up {
+	background: #A981D7; 
+	color: #010A29;
+	}
+	
+#up:hover {
+	background-color: #4D1487;
+    color: #EEE0F9; 
+	}
+
+footer {
+	background: #B8C8D5;
+    color: #020B28;
+	}
+footer a{
+    color: #020B28;
+	}
