@@ -1,5 +1,5 @@
 body {
-	background: #092A49;
+	background: linear-gradient(0deg, #092A49, #02182D, #092A49);
 	}
 	
 h3, h2, p, label, legend {
@@ -8,10 +8,15 @@ h3, h2, p, label, legend {
 
 nav {
 	background: #02182D;
+	box-shadow: 0 3px 7px 1px rgba(77, 0, 1, 0.5);
 	}
 	
 nav a {
   	color: #FDFBFC;
+	}
+nav a:hover {
+  	color: #e6cfdb;
+	text-shadow: 2px 1px 3px #fAf;
 	}
 	
 .card {
@@ -21,7 +26,7 @@ nav a {
 	}
 	
 .buy {
-    color: #042546;
+    color: #092A49;
     background: #5482B6;
 	}
 	
@@ -48,7 +53,7 @@ nav a {
 }
 
 .close:hover {
-    text-shadow: 1px 1px 3px #77f;
+    text-shadow: 3px 3px 2px #77f;
 	}
 	
 input[type=number], textarea {
@@ -62,13 +67,18 @@ input[type=number], textarea {
 	
 #up:hover {
 	background-color: #A981D7;
-    color: #021732; 
+    color: #092A49; 
 	}
 
 footer {
 	background: #02182D;
     color: #FDFBFC;
+	box-shadow: 0 -3px 7px 1px rgba(77, 0, 1, 0.5);
 	}
 footer a{
     color: #FDFBFC;
+	}
+footer a:hover{
+    color: #e6cfdb;
+	text-shadow: 2px 1px 3px #fAf;
 	}

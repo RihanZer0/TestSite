@@ -1,5 +1,5 @@
 body {
-	background: #F1F4F9;
+	background: linear-gradient(0deg, #B8C8D5, #F1F4F9, #B8C8D5);
 	}
 	
 h3, h2, p, label, legend {
@@ -8,10 +8,15 @@ h3, h2, p, label, legend {
 	
 nav {
 	background: #B8C8D5;
+	box-shadow: 0 3px 7px 1px rgba(1, 0, 77, 0.5);
 	}
 	
 nav a {
   	color: #020B28;
+	}
+nav a:hover {
+  	color: #25325c;
+	text-shadow: 1px 1px 3px #911;
 	}
 	
 .card {
@@ -21,12 +26,12 @@ nav a {
 	}
 	
 .buy {
-    color: #F3DEF1;
+    color: #F1F4F9;
     background: #57A3F9;
 	}
 	
 .buy:hover {
-    background: #223;
+    background: #5481B8;
 	}
 	
 .modal {
@@ -68,7 +73,12 @@ input[type=number], textarea {
 footer {
 	background: #B8C8D5;
     color: #020B28;
+	box-shadow: 0 -3px 7px 1px rgba(1, 0, 77, 0.5);
 	}
 footer a{
     color: #020B28;
+	}
+footer a:hover{
+    color: #25325c;
+	text-shadow: 1px 1px 3px #911;
 	}
