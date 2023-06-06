@@ -258,7 +258,11 @@ input[type=reset]:hover {
 }
 
 @media screen and (max-width: 362px) {
+	nav {
+	    padding: 10px 5px;
+	}
 	nav a, button  {
+		padding: 17px 5px;
 		font-weight: 500;
 	}
 }
