@@ -257,6 +257,12 @@ input[type=reset]:hover {
     }
 }
 
+@media screen and (max-width: 362px) {
+	nav a, button  {
+		font-weight: 500;
+	}
+}
+
 #up {
 	display: none;
 	position: fixed; 
